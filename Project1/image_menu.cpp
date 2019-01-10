@@ -27,7 +27,6 @@ int assignment1( std::istream& is, std::ostream& os )
 {
 	std::string s = getString(is, os, "What's your favorite color? ");
 	int integer = getInteger(is, os, "What's your favorite integer? ");
-	std::cout << integer << std::endl;
 	double d = getDouble(is, os, "What's your favorite double? ");
 	for (int i = 1; i <= integer; i++)
 		os << i << ' ' << s << ' ' << d << std::endl;
