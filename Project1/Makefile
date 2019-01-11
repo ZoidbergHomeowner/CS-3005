@@ -1,7 +1,7 @@
 all: questions_3
 
 questions_3:
-	g++ -std=c++11 questions_3 ppm_menu.cpp image_menu.cpp -I
+	g++ -std=c++11 ppm_menu.cpp image_menu.cpp -o questions3
 	
 clean:
-	rm -f questions_3 ppm_menu.o image_menu.o
+	rm questions3
